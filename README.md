@@ -58,7 +58,7 @@ The server will start, and you should see a message indicating that it is runnin
 
 ## Usage
 
-- The server is currently set up to handle routes defined below.
+- The server is currently set up to handle API routes given below.
 
 - Make sure to update the MongoDB connection details in `config/mongoose.js` according to your database configuration.
 
