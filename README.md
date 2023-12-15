@@ -66,11 +66,11 @@ The server will start, and you should see a message indicating that it is runnin
 
 ## API's
 These are the following API's for the app:
-- /questions/create (To create a question)
-- /questions/:id/options/create (To add options to a specific question)
-- /questions/:id/delete (To delete a question)(A question can’t be deleted if one of it’s options has votes)
-- /options/:id/delete (To delete an option)(An option can’t be deleted if it has even one vote given to it)
-- /options/:id/add_vote (To increment the count of votes)
-- /questions/:id (To view a question and it’s options)
+- /api/v1/questions/create (To create a question)
+- /api/v1/questions/:id/options/create (To add options to a specific question)
+- /api/v1/questions/:id/delete (To delete a question)(A question can’t be deleted if one of it’s options has votes)
+- /api/v1/options/:id/delete (To delete an option)(An option can’t be deleted if it has even one vote given to it)
+- /api/v1/options/:id/add_vote (To increment the count of votes)
+- /api/v1/questions/:id (To view a question and it’s options)
 
 
