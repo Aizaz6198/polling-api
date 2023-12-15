@@ -71,6 +71,6 @@ These are the following API's for the app:
 - /api/v1/questions/:id/delete (To delete a question)(A question can’t be deleted if one of it’s options has votes)
 - /api/v1/options/:id/delete (To delete an option)(An option can’t be deleted if it has even one vote given to it)
 - /api/v1/options/:id/add_vote (To increment the count of votes)
-- /api/v1/questions/:id (To view a question and it’s options)
+- /api/v1/question/view/:id (To view a question and it’s options)
 
 
